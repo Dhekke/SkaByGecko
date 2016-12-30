@@ -8,12 +8,10 @@
     <nav>
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
-        {% for href, title in [
-          ['/blog', 'Blog']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
+          %}><a href="{{ '/'|url }}">All</a></li>
+        {% for category in site.query('/categories') %}
+          <li{% if this == category %} class="active"{% endif
+            %}><a href="{{ category|url }}">{{ category.name }}</a></li>
         {% endfor %}
       </ul>
     </nav>

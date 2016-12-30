@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% from "macros/blog.html" import render_blog_post %}
+{% block title %}{{ this.name }}{% endblock %}j
+{% block body %}
+  {% for category in this.children %}
+    <div><a href="{{ category|url }}">{{ category.name }}</a></div>
+  {% endfor %}
+{% endblock %}
