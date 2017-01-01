@@ -1,9 +1,28 @@
-title: Hello Website
+title: This is my blog
 ---
-pub_date: 2016-12-29
+pub_date: 2016-12-31
 ---
-author: Gabriel Koscky
+author: Gabe
 ---
-body: This is an example blog post.  Not much here but that's not the point :)
+body:
+
+As you can see, it **sucks**. Don't lie. It does.
+
+But here's the thing: it exists. And up until a few days ago it was nothing but I domain I'd held for 8 goddamn years - basically squatting my own internet kingdom - without a single purpose. Then a few days ago it became a project. And now it's a reality. It *exists*.
+
+Things that exist are usually much better than things that don't exist. Some exceptions are capitalism and facists, among others. But, in general, not turning things from "initial idea and motivation" to, at the very least, "shitty product" has always been a major problem in my life. So here, I did it.
+
+I learned a ton of things while doing it. [Lektor](http://www.getlektor.com) is pretty cool. [Jinja](http://jinja.pocoo.org/) seems like it's pretty cool, but it didn't mess around with it enough while building this (as you can see) to be sure. *Static websites are cool* - they are. They use modern technology to force you to think about websites the old-fashioned way.
+
+I'm old enough to remember how learning modern web frameworks fucked with everything I knew. "What do you mean 'command line'? And what's with this using a 'development server' instead of just regular files on the Apache folder?" I'd say... Well, static sites use the command line too, but to generate regular files that should be dropped on the Apache folder. How about that for a mix of old and new?  
+(Of course that explanation is full of mistakes, internet. There are no comments here, so you'll just have to fume somewhere else. Get your own static site... :middle_finger_emoji:)
+
+All of this happened over the last week. The week before 2016 ended. It's my "Old Year Resolution". Is that a thing? Instead of making promises I would have 365 days to fail at, I just decided to get something I'd been failing at for a long time and **got it done**. I don't get things done, so I decided that this arbitrary deadline would be interesting.
+
+So now I have a - static! - blog. Look at it. It sucks. But it exists. Like capitalism.
+
+Happy 2017
 ---
 category: light
+---
+twitter_handle: dhekke
