@@ -1,2 +1,8 @@
 [project]
 name = SkaByGecko
+
+[servers.dreamhost]
+name = Dreamhost
+enabled = yes
+default = yes
+target = rsync://dhekke@skabygecko.com:/home/dhekke/skabygecko.com/SkaByGecko
